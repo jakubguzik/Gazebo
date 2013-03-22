@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<sdf version='1.3'>
+  <model name="crossroad">
+    <static>true</static>
+    <link name='chassis'>
+      <visual name='visual'>
+	<geometry>
+	  <mesh>
+	    <uri>model://crossroad2/models/Road08.dae</uri>
+	  </mesh>
+	</geometry>
+	</visual>
+      <collision name="collision">
+	<geometry>
+	  <mesh>
+	    <uri>model://crossroad2/models/Road08.dae</uri>
+	  </mesh>
+	</geometry>
+	</collision>
+      </link>
+    </model>
+</sdf>

@@ -1,0 +1,53 @@
+#include <iostream>
+#include <sys/time.h>
+
+PID::PID(float P, float I, float D): PP(P), II(I), DD(D){
+  if (gettimeofday(&TPoprz, NULL) == -1) {
+    fprintf(stderr, "Failed to get start time\n");
+    return 1;
+  }
+}
+
+
+float PID::GetTimeStep(){
+  float tdif;
+  struct timeval TObecny;
+
+  if (gettimeofday(&TObecny, NULL) == -1) {
+    fprintf(stderr, "Failed to get start time\n");
+    return 1;
+  }
+
+  tdif = MILLION*(TObecny.tv_sec - TPoprz.tv_sec) +
+    TObecny.tv_usec - TPoprz.tv_usec;
+
+  TPoprz=TObecny;
+
+  return tdif;
+}
+
+void PID::SetP(float P){
+  if(P>=0) PP=P;
+  else cerr<<"P<0"<<endl;
+} 
+void PID::SetI(float I){
+  if(I>=0) II=I;
+  else cerr<<"I<0"<<endl;
+}
+void PID::SetD(float D){
+  if(D>=0) DD=D;
+  else cerr<<"D<0"<<endl;
+} 
+void PID::SetSP(float SP){
+  WZadana=SP;
+}
+
+float PID::Control(float PV){
+  float err=SP-PV;
+  float result=0;
+  float timestep=GetTimeStep();
+  result+=err*PP;
+  result+=DD*(Poprzedni-PV)/timestep;
+  result+=Calka+err*II*timestep;
+  return result;
+}

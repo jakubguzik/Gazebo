@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<model>
+  <name>Jurek</name>
+  <version>1.0</version>
+  <sdf version='1.3'>model.sdf</sdf>
+
+  <author>
+   <name>Gazebo Team</name>
+   <email></email>
+  </author>
+
+  <description>
+    Our not really awesome vehicle.
+  </description>
+</model>

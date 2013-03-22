@@ -1,0 +1,1 @@
+/home/kuba/program/my_plugin/build/CMakeFiles/my_plugin.dir

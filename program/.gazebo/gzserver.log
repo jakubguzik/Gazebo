@@ -1,0 +1,82 @@
+[1363180727 137205230] Gazebo multi-robot simulator, version 1.5.0
+Copyright (C) 2013 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+[1363180727 876193628] ODE body for link [link] does not exist, GetGravityMode returns default of 0
+[1363180727 876241468] ODE body for link [link] does not exist, GetKinematic returns default of 0
+[1363180727 876250668] ODE body for link [link] does not exist, GetEnabled returns default of 1
+[1363180727 876388668] ODE body for link [link] does not exist, unable to SetEnabled
+[1363180728 562080310] ODE body for link [link] does not exist, unable to respond to OnPoseChange
+[1363180728 562143550] ODE body for link [link] does not exist, unable to SetKinematic
+[1363180728 562161790] ODE body for link [link] does not exist, unable to SetGravityMode
+[1363180728 562178710] ODE body for link [link] does not exist, unable to SetLinearDamping
+[1363180728 562188590] ODE body for link [link] does not exist, unable to SetAngularDamping
+[1363180728 562201070] ODE body for link [link] does not exist, unable to respond to OnPoseChange
+[1363180728 562257990] ODE body for link [link] does not exist, unable to place collision bodies in ODELink::Init
+[1363180728 562267510] ODE body for link [link] does not exist, unable to UpdateMass
+[1363180728 562273990] ODE body for link [link] does not exist, unable to set callbacks in ODELink::Init
+[1363180728 562888710] World::Init
+[1363180728 563590510] ODE body for link [link] does not exist, GetWorldAngularVel returns default of 0 0 0
+[1363180728 563648910] ODE body for link [link] does not exist, GetWorldLinearVel returns default of 0 0 0
+[1363180728 563663470] ODE body for link [link] does not exist, GetWorldTorque returns default of 0 0 0
+[1363180728 563676110] ODE body for link [link] does not exist, GetWorldForce returns default of 0 0 0
+[1363180728 563685550] ODE body for link [link] does not exist, GetWorldForce returns default of 0 0 0
+[1363180729 571595790] ODE body for link [link] does not exist, GetGravityMode returns default of 0
+[1363180729 571632510] ODE body for link [link] does not exist, GetKinematic returns default of 0
+[1363180729 571639590] ODE body for link [link] does not exist, GetEnabled returns default of 1
+[1363180729 972927030] ODE body for link [link] does not exist, GetGravityMode returns default of 0
+[1363180729 972966950] ODE body for link [link] does not exist, GetKinematic returns default of 0
+[1363180729 972974270] ODE body for link [link] does not exist, GetEnabled returns default of 1
+[1363180774 523658550] ODE body for link [front_left_wheel] does not exist, unable to SetEnabled
+[1363180774 530918990] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 530962230] ODE body for link [front_left_wheel] does not exist, unable to SetEnabled
+[1363180774 530969870] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531336510] ODE body for link [front_right_wheel] does not exist, unable to SetEnabled
+[1363180774 531351270] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531359430] ODE body for link [front_right_wheel] does not exist, unable to SetEnabled
+[1363180774 531366550] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531421790] ODE body for link [rear_left_wheel] does not exist, unable to SetEnabled
+[1363180774 531430710] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531444230] ODE body for link [rear_left_wheel] does not exist, unable to SetEnabled
+[1363180774 531451390] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531493230] ODE body for link [rear_right_wheel] does not exist, unable to SetEnabled
+[1363180774 531501910] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531508750] ODE body for link [rear_right_wheel] does not exist, unable to SetEnabled
+[1363180774 531515550] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531557430] ODE body for link [camera::link] does not exist, unable to SetEnabled
+[1363180774 531580230] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531586630] ODE body for link [camera::link] does not exist, unable to SetEnabled
+[1363180774 531592350] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 531650670] ODE body for link [chassis] does not exist, GetGravityMode returns default of 0
+[1363180774 531660030] ODE body for link [chassis] does not exist, GetKinematic returns default of 0
+[1363180774 531666990] ODE body for link [chassis] does not exist, GetEnabled returns default of 1
+[1363180774 531737190] ODE body for link [rear_left_wheel] does not exist, GetGravityMode returns default of 0
+[1363180774 531745190] ODE body for link [rear_left_wheel] does not exist, GetKinematic returns default of 0
+[1363180774 531751030] ODE body for link [rear_left_wheel] does not exist, GetEnabled returns default of 1
+[1363180774 531810750] ODE body for link [rear_right_wheel] does not exist, GetGravityMode returns default of 0
+[1363180774 531819550] ODE body for link [rear_right_wheel] does not exist, GetKinematic returns default of 0
+[1363180774 531825390] ODE body for link [rear_right_wheel] does not exist, GetEnabled returns default of 1
+[1363180774 531881350] ODE body for link [front_left_wheel] does not exist, GetGravityMode returns default of 0
+[1363180774 531890070] ODE body for link [front_left_wheel] does not exist, GetKinematic returns default of 0
+[1363180774 531895830] ODE body for link [front_left_wheel] does not exist, GetEnabled returns default of 1
+[1363180774 531947270] ODE body for link [front_right_wheel] does not exist, GetGravityMode returns default of 0
+[1363180774 531955830] ODE body for link [front_right_wheel] does not exist, GetKinematic returns default of 0
+[1363180774 531962150] ODE body for link [front_right_wheel] does not exist, GetEnabled returns default of 1
+[1363180774 532019510] ODE body for link [camera::link] does not exist, GetGravityMode returns default of 0
+[1363180774 532028430] ODE body for link [camera::link] does not exist, GetKinematic returns default of 0
+[1363180774 532034670] ODE body for link [camera::link] does not exist, GetEnabled returns default of 1
+[1363180774 922514510] ODE body for link [link] does not exist, unable to SetEnabled
+[1363180774 922558950] ODE body for link [chassis] does not exist, unable to SetEnabled
+[1363180774 922565910] ODE body for link [rear_left_wheel] does not exist, unable to SetEnabled
+[1363180774 922572390] ODE body for link [rear_right_wheel] does not exist, unable to SetEnabled
+[1363180774 922578750] ODE body for link [front_left_wheel] does not exist, unable to SetEnabled
+[1363180774 922585230] ODE body for link [front_right_wheel] does not exist, unable to SetEnabled
+[1363180774 922591710] ODE body for link [camera::link] does not exist, unable to SetEnabled
+[1363180774 922655430] ODE body for link [chassis] does not exist, unable to respond to OnPoseChange
+[1363180774 922671470] ODE body for link [rear_left_wheel] does not exist, unable to respond to OnPoseChange
+[1363180774 922682070] ODE body for link [rear_right_wheel] does not exist, unable to respond to OnPoseChange
+[1363180774 922692670] ODE body for link [front_left_wheel] does not exist, unable to respond to OnPoseChange
+[1363180774 922703070] ODE body for link [front_right_wheel] does not exist, unable to respond to OnPoseChange
+[1363180774 922713510] ODE body for link [camera::link] does not exist, unable to respond to OnPoseChange

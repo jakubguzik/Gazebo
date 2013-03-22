@@ -1,0 +1,30 @@
+#ifndef PID_HH
+#define PID_HH
+
+#define MILLION 1e6L
+
+class PID
+{
+  struct timeval TPoprz;
+
+  float CalkaL, CalkaR;
+  float PoprzedniL, PoprzedniR;
+  float PP, II, DD;
+  float katL, katR;
+  float SterowanieL, SterowanieR;
+  float WZadana;
+
+  float GetTimeStep();
+
+public:
+  PID(float P, float I, float D);
+
+  void SetP(float P);
+  void SetI(float I);
+  void SetD(float D);
+  void SetSP(float SP);
+
+  float Control(float PV);
+}
+
+#end 				// PID_HH
